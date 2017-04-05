@@ -37,11 +37,8 @@ DescribeDifference(c(1, 2, 3, 15, 16, 73, 4), c(2, 3, 4, 5))
 # Rewrite your `DescribeDifference` function to tell you the name of the vector which is longer
 DescribeDifference <- function(v1, v2) {
   if (length(v1) > length(v2)) {
-    return (v1)
+    return ("v1")
   } else {
-    return (v2)
+    return ("v2")
   }
 }
-
-
-
